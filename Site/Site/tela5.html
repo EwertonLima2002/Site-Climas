@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link rel="stylesheet" href="css/tela3.css">
+    <title>Clima Mediterâneo e vegetação adaptada</title>
+</head>
+<body>
+    <div id="snowfall"></div>
+    
+    <div class="dots-corner top-left"></div>
+    <div class="dots-corner bottom-left"></div>
+    <div class="dots-corner top-right"></div>
+    <div class="dots-corner bottom-right"></div>
+
+    <div class="container">
+        <h1>Clima Mediterâneo e vegetação adaptada</h1>
+        <p>
+            O clima mediterrâneo, como na Califórnia, é
+            marcado por verões quentes e secos e invernos
+            mais úmidos. As plantas que crescem nesses
+            lugares são bem adaptadas para economizar água
+            com folhas duras e resistentes. Além disso, elas são
+            super resistentes ao fogo, que é algo comum nessas
+            ręgiões, e conseguem se regenerar rapidamente
+            depois de um incêndio.
+        </p>
+    </div>
+    <div class="nav-buttons">
+        <button class="nav-button nav-button-left" onclick="goBack()">&#8592;</button>
+        <button class="nav-button nav-button-right" onclick="nextScreen()">&#8594;</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<script>
+    function nextScreen() {
+        // Redireciona para a próxima tela
+        window.location.href = "tela6.html"; // Substitua pelo nome do arquivo da próxima tela
+    }
+
+    function goBack() {
+        window.location.href = "tela4.html"; 
+    }
+</script>

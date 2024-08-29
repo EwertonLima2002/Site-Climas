@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumário</title>
+    <link rel="stylesheet" href="css/sumario.css">
+</head>
+<body>
+    <div class="container">
+        <div class="summary-header">
+            <div class="header-background">
+                <h1>Sumário</h1>
+            </div>
+        </div>
+        <div class="summary-list">
+            <div class="item">
+                <div class="circle">1</div>
+                <span>As variedades climáticas do Continente Americano</span>
+            </div>
+            <div class="item">
+                <div class="circle">2</div>
+                <span>Florestas Tropicais e Subtropicais</span>
+            </div>
+            <div class="item">
+                <div class="circle">3</div>
+                <span>Desertos e Vegetação Árida</span>
+            </div>
+            <div class="item">
+                <div class="circle">4</div>
+                <span>Clima Mediterrâneo e Vegetação Adaptada</span>
+            </div>
+            <div class="item">
+                <div class="circle">5</div>
+                <span>Regiões Frias e a Taiga</span>
+            </div>
+        </div>
+        <!-- Botões de Navegação -->
+        <button class="nav-button nav-button-left" onclick="goBack()">&#8592;</button>
+        <button class="nav-button nav-button-right" onclick="goForward()">&#8594;</button>
+    </div>
+
+    <script>
+        // Função para voltar para a página anterior
+        function goBack() {
+          window.location.href = "tela1.html";
+        }
+
+        // Função para avançar para a próxima página
+        function goForward() {
+            window.location.href = "tela2.html";
+        }
+    </script>
+</body>
+</html>

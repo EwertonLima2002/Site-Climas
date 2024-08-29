@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Variedade Climática</title>
+    <link rel="stylesheet" href="css/tela2.css">
+</head>
+<body>
+    <div id="snowfall"></div>
+    
+    <div class="dots-corner top-left"></div>
+    <div class="dots-corner bottom-left"></div>
+    <div class="dots-corner top-right"></div>
+    <div class="dots-corner bottom-right"></div>
+
+    <div class="container">
+        <h1>A Variedade Climática do Continente Americano</h1>
+        <p>
+            O continente americano é super diversificado em termos de clima. Temos desde regiões geladas lá no norte até áreas quentes e úmidas perto do equador, passando por climas temperados no meio do caminho. Essa variedade de climas faz com que as plantas que crescem em cada lugar sejam bem diferentes. Nas áreas mais frias, por exemplo, só algumas plantas mais resistentes, como musgos e líquens, conseguem sobreviver. Já em climas mais amenos, como nos Estados Unidos, encontramos florestas com uma mistura de árvores que perdem as folhas no inverno e coníferas, que ficam verdes o ano todo.
+        </p>
+    </div>
+
+    <div class="nav-buttons">
+        <button class="nav-button nav-button-left" onclick="goBack()">&#8592;</button>
+        <button class="nav-button nav-button-right" onclick="nextScreen()">&#8594;</button>
+    </div>
+
+</body>
+</html>
+<script>
+    function nextScreen() {
+        // Redireciona para a próxima tela
+        window.location.href = "tela3.html"; // Substitua pelo nome do arquivo da próxima tela
+    }
+
+    function goBack() {
+        window.location.href = "sumario.html"; 
+    }
+</script>

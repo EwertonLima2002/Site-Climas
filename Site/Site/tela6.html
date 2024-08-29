@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link rel="stylesheet" href="css/tela3.css">
+    <title>Regiões Frias e a Taiga</title>
+</head>
+<body>
+    <div id="snowfall"></div>
+    
+    <div class="dots-corner top-left"></div>
+    <div class="dots-corner bottom-left"></div>
+    <div class="dots-corner top-right"></div>
+    <div class="dots-corner bottom-right"></div>
+
+    <div class="container">
+        <h1>Regiões Frias e a Taiga</h1>
+        <p>
+            Nas regiões frias do norte, temos as florestas boreais
+        ou taiga, que são dominadas por coníferas, como
+        pinheiros e abetos. Essas árvores são bem adaptadas
+        ao frio, com folhas em forma de agulha que ajudam a
+        suportar a neve. O solo dessas florestas é meio pobre
+        em nutrientes, mas, mesmo assim, essas áreas são
+        super importantes para o equilíbrio climático global,
+        ajudando a absorver carbono da atmosfera.
+        </p>
+    </div>
+    <div class="nav-buttons">
+        <button class="nav-button nav-button-left" onclick="goBack()">&#8592;</button>
+        <button class="nav-button nav-button-right" onclick="nextScreen()">&#8594;</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<script>
+    function nextScreen() {
+        // Redireciona para a próxima tela
+        window.location.href = "biomas.html"; // Substitua pelo nome do arquivo da próxima tela
+    }
+
+    function goBack() {
+        window.location.href = "tela5.html"; 
+    }
+</script>

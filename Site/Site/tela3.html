@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florestas Tropicais e Subtropicais</title>
+    <link rel="stylesheet" href="css/tela3.css">
+</head>
+<body>
+    <div id="snowfall"></div>
+    
+    <div class="dots-corner top-left"></div>
+    <div class="dots-corner bottom-left"></div>
+    <div class="dots-corner top-right"></div>
+    <div class="dots-corner bottom-right"></div>
+
+    <div class="container">
+        <h1>Florestas Tropicais e Subtropicais</h1>
+        <p>
+            Nas regiões próximas ao equador, o clima é quente e úmido durante o ano inteiro, o que é perfeito para o crescimento de florestas tropicais densas, como a Amazônia. Essas florestas são super ricas em espécies de plantas e animais. Quando nos afastamos um pouco do equador, chegamos nas regiões subtropicais, onde ainda temos muita diversidade, mas com uma diferença: as estações do ano são mais definidas, com períodos de chuva e seca bem distintos.
+        </p>
+      
+    </div>
+    <div class="nav-buttons">
+        <button class="nav-button nav-button-left" onclick="goBack()">&#8592;</button>
+        <button class="nav-button nav-button-right" onclick="nextScreen()">&#8594;</button>
+    </div>
+    <script>
+        function nextScreen() {
+            // Redireciona para a próxima tela
+            window.location.href = "tela4.html"; // Substitua pelo nome do arquivo da próxima tela
+        }
+    
+        function goBack() {
+            window.location.href = "tela2.html"; 
+        }
+    </script>
+</body>
+</html>

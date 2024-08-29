@@ -1,0 +1,85 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background-color: #D4E7D3;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.shape {
+    position: absolute;
+    background-color: #3A5A40;
+    border-radius: 50%;
+    opacity: 0.9;
+}
+
+.shape1 {
+    width: 300px;
+    height: 300px;
+    bottom: 0;
+    left: 0;
+}
+
+.shape2 {
+    width: 200px;
+    height: 200px;
+    top: 20px;
+    right: 20px;
+}
+
+.shape3 {
+    width: 150px;
+    height: 150px;
+    top: 100px;
+    left: 50px;
+    background-color: #27472E;
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    color: #2F4F27;
+}
+
+.text h1 {
+    font-size: 48px;
+    font-weight: 900; /* Aumenta a espessura do texto */
+    color: #3A5A40;
+    font-family: 'Georgia', serif;
+    letter-spacing: 2px;
+}
+
+/* Estilo para o botão de navegação */
+.nav-button {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background-color: #3A5A40;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #27472E;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desertos e Vegetação Árida</title>
+    <link rel="stylesheet" href="css/tela3.css">
+</head>
+<body>
+    <div id="snowfall"></div>
+    
+    <div class="dots-corner top-left"></div>
+    <div class="dots-corner bottom-left"></div>
+    <div class="dots-corner top-right"></div>
+    <div class="dots-corner bottom-right"></div>
+
+    <div class="container">
+        <h1>Desertos e Vegetação Árida</h1>
+        <p>
+            As regiões áridas e desérticas.
+            como o deserto do Atacama, são
+            conhecidas pela falta de chuva e
+            temperaturas quentes. A vegetação
+            por lá é bem escassa, mas as
+            plantas que existem desenvolveram
+            truques para sobreviver. Elas têm
+            folhas pequenas ou espinhos
+            raízes profundas e conseguem
+            armazenar água para sobreviver
+            por longos períodos sem chuva.
+        </p>
+    </div>
+    <div class="nav-buttons">
+        <button class="nav-button nav-button-left" onclick="goBack()">&#8592;</button>
+        <button class="nav-button nav-button-right" onclick="nextScreen()">&#8594;</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<script>
+    function nextScreen() {
+        // Redireciona para a próxima tela
+        window.location.href = "tela5.html"; // Substitua pelo nome do arquivo da próxima tela
+    }
+
+    function goBack() {
+        window.location.href = "tela3.html"; 
+    }
+</script>
